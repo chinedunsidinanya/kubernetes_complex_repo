@@ -17,10 +17,6 @@ spec:
         image: chinedunsidinanya/multi-server:latest
         ports:
         - containerPort: 5000
-        resources:
-          limits:
-            memory: "800Mi"
-            cpu: "800m"
         env:
           - name: REDIS_HOST
             value: redis-cluster-ip-service
