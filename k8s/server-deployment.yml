@@ -13,7 +13,7 @@ spec:
         components: server
     spec:
       containers:
-      - name: server-contianer
+      - name: server
         image: chinedunsidinanya/multi-server
         ports:
         - containerPort: 5000
