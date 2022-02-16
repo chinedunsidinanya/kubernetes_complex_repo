@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: client
-        image: chinedunsidinanya/multi-client:v2
-        
+        image: chinedunsidinanya/multi-client
+
         ports:
         - containerPort: 3000

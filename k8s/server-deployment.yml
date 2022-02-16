@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server-contianer
-        image: chinedunsidinanya/multi-server:latest
+        image: chinedunsidinanya/multi-server
         ports:
         - containerPort: 5000
         env:
