@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React Version 2
+            Learn React Version 2. I just made a change that needs to be pushed to Production
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
